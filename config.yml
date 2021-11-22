@@ -1,0 +1,11 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:16.11
+    steps: #stepsキーが正しい
+      - run: echo "helloworld"
+
+
+
